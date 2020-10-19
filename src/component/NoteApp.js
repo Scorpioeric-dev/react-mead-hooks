@@ -3,6 +3,7 @@ import notesReducer from "../ducks/notesReducer";
 import NoteList from "./NoteList";
 import Form from './Form'
 import NotesContext from '../context/notes-context'
+import Cart from './Cart'
 
 const NoteApp = () => {
   const notesData = JSON.parse(localStorage.getItem("notes"));
@@ -28,7 +29,7 @@ const NoteApp = () => {
       <h3>Notes</h3>
       <NoteList />
       <Form />
-      
+      <Cart/>
     </NotesContext.Provider>
   );
 };
