@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React, { useState, useEffect } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+// const App = (props) => {
+//     const [count, setCount] = useState(props.count);
+//     const [text, setText] = useState("");
+  
+//     useEffect(() => {
+//       console.log("use Effect ran");
+//       document.title = count;
+//     });
+  
+//     return (
+//       <div>
+//         <p>
+//           The current {text || "count"} is {count}
+//         </p>
+//         <button onClick={() => setCount(count + 1)}> +1 </button>
+//         <button onClick={() => setCount(props.count)}> reset </button>
+//         <button onClick={() => setCount(count - 1)}> -1 </button>
+//         <input value={text} onChange={(e) => setText(e.target.value)} />
+//       </div>
+//     );
+//   };
