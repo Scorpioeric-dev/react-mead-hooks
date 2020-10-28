@@ -4,6 +4,8 @@ import NoteList from "./NoteList";
 import Form from './Form'
 import NotesContext from '../context/notes-context'
 import Cart from './Cart'
+import Destructuring from '../playground/Destructuring'
+
 
 const NoteApp = () => {
   const notesData = JSON.parse(localStorage.getItem("notes"));
@@ -30,6 +32,7 @@ const NoteApp = () => {
       <NoteList />
       <Form />
       <Cart/>
+      <Destructuring/>
     </NotesContext.Provider>
   );
 };

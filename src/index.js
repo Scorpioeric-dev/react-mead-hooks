@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import NoteApp from './component/NoteApp'
 
+
 ///Seperate component
 // const App = (props) => {
 //   const [count, setCount] = useState(props.count);
